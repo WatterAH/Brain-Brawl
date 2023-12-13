@@ -1,0 +1,23 @@
+{
+  "name": "brainbrawl",
+  "version": "1.0.0",
+  "description": "JetPunk multiplayer online super pro.exe",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/index.js",
+    "dev": "nodemon backend/index.js"
+  },
+  "keywords": [
+    "GarbSam"
+  ],
+  "author": "Garbs & Sam",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
